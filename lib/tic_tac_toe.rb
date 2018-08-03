@@ -27,7 +27,7 @@ def turn_count(board)
   counter
 end
 
-def move(board, index, current_player = "X")
+def move(board, index, current_player)
   board[index] = current_player
 end
 
